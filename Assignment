@@ -1,0 +1,10 @@
+create table customers(customer_id int,customer_name varchar(20),country varchar(20),age int);
+
+insert into customers values(1,"John Smith","USA",30);
+insert into customers values(2,"Jane Doe","Canada",42);
+insert into customers values(3,"Alex Kim","USA",20);
+insert into customers values(4,"Emily Chen","China",28);
+insert into customers values(5,"Tom Johnson","USA",37);
+insert into customers values(6,"Lisa Lee","Korea",24);
+
+select * from customers where country="USA" and age>25;
